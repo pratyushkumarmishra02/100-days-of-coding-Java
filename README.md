@@ -48,13 +48,13 @@ More topics will be added as the challenge progresses.
 
 ## 📅 Challenge Progress
 
-| Day | Project | Status |
+| Day-1 | Project | Status |
 |:---:|---------|:------:|
 | 1 | Check Even or Odd | ✅ |
 | 2 | Check Prime Number | ✅ |
 | 3 | Factorial of a Number | ✅ |
 | 4 | Fibonacci Series | ✅ |
-| 4 | Reverse Number | ✅ |
+| 5 | Reverse Number | ✅ |
 | ... | More Coming Soon | 🚀 |
 
 ---
