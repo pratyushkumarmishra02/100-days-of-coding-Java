@@ -243,7 +243,6 @@ This program uses a simple factor-counting approach, making it ideal for beginne
 
 ---
 
-````md
 # 🔢 Factorial of a Number (Java)
 
 A simple Java program that calculates the **factorial of a number** using **Recursion**. The program accepts an integer from the user and recursively computes its factorial.
