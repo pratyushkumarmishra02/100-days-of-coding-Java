@@ -243,6 +243,144 @@ This program uses a simple factor-counting approach, making it ideal for beginne
 
 ---
 
+````md
+# 🔢 Factorial of a Number (Java)
+
+A simple Java program that calculates the **factorial of a number** using **Recursion**. The program accepts an integer from the user and recursively computes its factorial.
+
+This project is part of my **#100DaysOfCode** journey, helping me understand recursion, functions, loops, and basic Java programming concepts.
+
+---
+
+## 🚀 Features
+
+- **User Interactive:** Accepts user input using the `Scanner` class.
+- **Recursive Solution:** Calculates the factorial using recursion.
+- **Easy to Understand:** Demonstrates the concept of recursive function calls.
+- **Beginner Friendly:** Ideal for learning Java methods and recursion.
+
+---
+
+## 🛠️ Prerequisites
+
+Before running this program, make sure you have:
+
+- **Java Development Kit (JDK)** 8 or higher
+- Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
+
+---
+
+## 📂 Project Structure
+
+```text
+Day3/
+│── FactorialOfNumber.java
+│── README.md
+```
+
+---
+
+## 💻 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd 100-days-of-coding-Java/Day3
+```
+
+### 3. Compile the Java file
+
+```bash
+javac FactorialOfNumber.java
+```
+
+### 4. Run the program
+
+```bash
+java FactorialOfNumber
+```
+
+---
+
+## 📝 Code Explanation
+
+The program uses **recursion** to calculate the factorial.
+
+- If `n` is less than `1`, the function returns `1` (Base Case).
+- Otherwise, it multiplies `n` by the factorial of `n - 1`.
+
+```java
+public static int factorial(int n) {
+    if (n < 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+```
+
+---
+
+## 📋 Example Output
+
+| Input | Output |
+|:-----:|:------:|
+| 5 | Factorial of 5 is 120 |
+| 6 | Factorial of 6 is 720 |
+| 0 | Factorial of 0 is 1 |
+| 1 | Factorial of 1 is 1 |
+
+---
+
+## 📚 Concepts Used
+
+- Java Basics
+- Variables
+- User Input (`Scanner`)
+- Methods
+- Recursion
+- Conditional Statements (`if-else`)
+- Mathematical Computation
+
+---
+
+## 🎯 Learning Outcome
+
+By completing this project, I learned:
+
+- How recursion works in Java.
+- The importance of the base case in recursive functions.
+- How to define and call methods.
+- How recursive function calls solve mathematical problems.
+- Basic problem-solving using recursion.
+
+---
+
+## 🔄 Other Approaches
+
+This project also includes two additional implementations for calculating factorial:
+
+- ✅ Using a `while` loop (Iterative approach)
+- ✅ Using a separate method (Function-based approach)
+- ✅ Using **Recursion** (Current implementation)
+
+These approaches help compare different ways of solving the same problem in Java.
+
+---
+
+## ⚠️ Note
+
+- Factorials grow very quickly.
+- Since this program uses the `int` data type, it works correctly only for relatively small numbers (up to **12!**). For larger values, consider using `long` or `BigInteger`.
+
+---
+
 ## 📌 Author
 
 **Pratyush Kumar Mishra**
