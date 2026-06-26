@@ -139,7 +139,7 @@ Before running this program, make sure you have:
 ## 📂 Project Structure
 
 ```text
-Day2/
+Day1/
 │── CheckPrime.java
 │── README.md
 ```
@@ -157,7 +157,7 @@ git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
 ### 2. Navigate to the project folder
 
 ```bash
-cd 100-days-of-coding-Java/Day2
+cd 100-days-of-coding-Java/Day1
 ```
 
 ### 3. Compile the Java file
@@ -273,7 +273,7 @@ Before running this program, make sure you have:
 ## 📂 Project Structure
 
 ```text
-Day3/
+Day1/
 │── FactorialOfNumber.java
 │── README.md
 ```
@@ -291,7 +291,7 @@ git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
 ### 2. Navigate to the project folder
 
 ```bash
-cd 100-days-of-coding-Java/Day3
+cd 100-days-of-coding-Java/Day1
 ```
 
 ### 3. Compile the Java file
@@ -378,6 +378,134 @@ These approaches help compare different ways of solving the same problem in Java
 
 - Factorials grow very quickly.
 - Since this program uses the `int` data type, it works correctly only for relatively small numbers (up to **12!**). For larger values, consider using `long` or `BigInteger`.
+
+---
+
+````md id="fibonacci-readme"
+# 🔢 Fibonacci Series (Java)
+
+A simple Java program that generates the **Fibonacci Series** up to a specified number of terms entered by the user. The program uses a **method** and a **for loop** to print the Fibonacci sequence.
+
+This project is part of my **#100DaysOfCode** journey, helping me strengthen my understanding of loops, methods, variables, and basic Java programming concepts.
+
+---
+
+## 🚀 Features
+
+- **User Interactive:** Accepts the number of terms using the `Scanner` class.
+- **Efficient Logic:** Generates the Fibonacci sequence using a `for` loop.
+- **Method-Based Implementation:** Uses a separate method for better code organization.
+- **Beginner Friendly:** Great for learning loops and sequence generation in Java.
+
+---
+
+## 🛠️ Prerequisites
+
+Before running this program, make sure you have:
+
+- **Java Development Kit (JDK)** 8 or higher
+- Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
+
+---
+
+## 📂 Project Structure
+
+```text
+Day1/
+│── FibonacciSeries.java
+│── README.md
+```
+
+---
+
+## 💻 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd 100-days-of-coding-Java/Day1
+```
+
+### 3. Compile the Java file
+
+```bash
+javac FibonacciSeries.java
+```
+
+### 4. Run the program
+
+```bash
+java FibonacciSeries
+```
+
+---
+
+## 📝 Code Explanation
+
+The program initializes the first two Fibonacci numbers (`0` and `1`) and calculates each subsequent number by adding the previous two numbers.
+
+```java
+public static void fibonacci(int n) {
+    int a = 0, b = 1;
+    int c = 0;
+
+    System.out.print("Fibonacci Series: 0, 1, ");
+
+    for (int i = 2; i < n; i++) {
+        a = b;
+        b = c;
+        c = a + b;
+        System.out.print(c + " ");
+    }
+}
+```
+
+---
+
+## 📋 Example Output
+
+| Input | Output |
+|:-----:|:------:|
+| 5 | 0, 1, 1, 2, 3 |
+| 8 | 0, 1, 1, 2, 3, 5, 8, 13 |
+| 10 | 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 |
+
+---
+
+## 📚 Concepts Used
+
+- Java Basics
+- Variables
+- User Input (`Scanner`)
+- Methods
+- `for` Loop
+- Sequence Generation
+- Mathematical Logic
+
+---
+
+## 🎯 Learning Outcome
+
+By completing this project, I learned:
+
+- How to generate the Fibonacci sequence.
+- How to use loops for repetitive calculations.
+- How to organize code using methods.
+- How variables are updated during each iteration.
+- Basic algorithm design in Java.
+
+---
+
+## ⚠️ Note
+
+- This program prints the Fibonacci sequence based on the **number of terms** entered by the user.
+- The Fibonacci series starts with **0** and **1**, and every subsequent number is the sum of the previous two numbers.
 
 ---
 
