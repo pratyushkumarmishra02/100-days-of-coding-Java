@@ -1,113 +1,120 @@
-\# Check Even or Odd (Java)
+# 🔢 Check Even or Odd (Java)
 
+A simple Java program that takes an integer input from the user and determines whether the number is **Even** or **Odd** using the modulo operator (`%`).
 
+This project is part of my **#100DaysOfCode** journey, focusing on foundational programming concepts and basic Java syntax.
 
-A straightforward Java program that takes an integer input from the user and determines whether the number is \*\*Even\*\* or \*\*Odd\*\* using the modulo operator (`%`). 
+---
 
+## 🚀 Features
 
+- **User Interactive:** Uses the `Scanner` class to accept real-time user input from the console.
+- **Simple Logic:** Uses the modulo operator (`%`) to determine whether a number is even or odd.
+- **Beginner Friendly:** Great for learning Java basics and conditional statements.
 
-This project is part of my #100DaysOfCode journey, focusing on foundational logic and basic Java syntax.
+---
 
+## 🛠️ Prerequisites
 
+Before running this program, make sure you have:
 
-\---
+- **Java Development Kit (JDK)** 8 or higher
+- Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
 
+---
 
+## 📂 Project Structure
 
-\## 🚀 Features
+```text
+Day1/
+│── CheckEvenOdd.java
+│── README.md
+```
 
-\* \*\*User Interactive:\*\* Uses the `Scanner` class to accept real-time user input via the console.
+---
 
-\* \*\*Efficient Logic:\*\* Utilizes a simple arithmetic condition (`n % 2 == 0`) to determine parity instantly.
+## 💻 How to Run
 
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
+```
 
-\---
+### 2. Navigate to the project folder
 
+```bash
+cd 100-days-of-coding-Java/Day1
+```
 
+### 3. Compile the Java file
 
-\## 🛠️ Prerequisites
+```bash
+javac CheckEvenOdd.java
+```
 
-Before running this program, ensure you have the following installed:
+### 4. Run the program
 
-\* \*\*Java Development Kit (JDK):\*\* Version 8 or higher.
+```bash
+java CheckEvenOdd
+```
 
-\* An IDE (like Eclipse, IntelliJ IDEA, VS Code) or just a terminal.
+---
 
+## 📝 Code Explanation
 
+The program checks whether a number is divisible by **2**.
 
-\---
+- If the remainder is **0**, the number is **Even**.
+- Otherwise, the number is **Odd**.
 
-
-
-\## 💻 How to Run
-
-
-
-1\. \*\*Clone the repository:\*\*
-
-&#x20;  git clone https://github.com/YOUR\_USERNAME/100-days-of-coding-Java.git
-
-
-
-2\. \*\*Navigate to the file directory:\*\*
-
-&#x20;  cd 100-days-of-coding-Java/Day1
-
-
-
-3\. \*\*Compile the Java file:\*\*
-
-&#x20;  javac ChekEvenOdd.java
-
-
-
-4\. \*\*Run the program:\*\*
-
-&#x20;  java ChekEvenOdd
-
-
-
-\---
-
-
-
-\## 📝 Code Breakdown
-
-
-
-The core logic relies on the \*\*modulo operator (`%`)\*\*, which returns the remainder of a division. 
-
-
-
-\* If a number is divisible by `2` with a remainder of `0`, it is \*\*Even\*\*.
-
-\* Otherwise, it is \*\*Odd\*\*.
+```java
 if (n % 2 == 0) {
-
-System.out.println("Even");
-
+    System.out.println("Even");
 } else {
-
-System.out.println("Odd");
-
+    System.out.println("Odd");
 }
+```
 
-### Example Input/Output
+---
 
+## 📋 Example Output
 
+| Input | Output |
+|:-----:|:------:|
+| 4 | Even |
+| 7 | Odd |
+| 0 | Even |
+| 15 | Odd |
 
-| Input | Expected Output |
+---
 
-| :---: | :---: |
+## 📚 Concepts Used
 
-| 4     | Even            |
+- Java Basics
+- Variables
+- User Input (`Scanner`)
+- Conditional Statements (`if-else`)
+- Modulo Operator (`%`)
 
-| 7     | Odd             |
+---
 
-| 0     | Even            |
+## 🎯 Learning Outcome
 
+By completing this project, I learned:
 
+- How to take user input using the `Scanner` class.
+- How to use the modulo operator to check number parity.
+- How to implement conditional logic using `if-else` statements.
+- Basic Java program structure.
 
-\---
+---
 
+## 📌 Author
+
+**Pratyush Kumar Mishra**
+
+Part of my **#100DaysOfCode** Java journey 🚀
+
+---
+⭐ If you found this project helpful, consider giving the repository a star!
