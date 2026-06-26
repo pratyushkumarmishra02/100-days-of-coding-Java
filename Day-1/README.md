@@ -509,6 +509,142 @@ By completing this project, I learned:
 
 ---
 
+````md id="reverse-number-readme"
+# 🔢 Reverse Number (Java)
+
+A simple Java program that takes an integer input from the user and reverses its digits using a **while loop** and arithmetic operations.
+
+This project is part of my **#100DaysOfCode** journey, helping me strengthen my understanding of loops, methods, and number manipulation in Java.
+
+---
+
+## 🚀 Features
+
+- **User Interactive:** Accepts user input using the `Scanner` class.
+- **Efficient Logic:** Reverses a number using arithmetic operators without converting it to a string.
+- **Method-Based Implementation:** Uses a separate method to improve code organization.
+- **Beginner Friendly:** Demonstrates number manipulation using loops.
+
+---
+
+## 🛠️ Prerequisites
+
+Before running this program, make sure you have:
+
+- **Java Development Kit (JDK)** 8 or higher
+- Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
+
+---
+
+## 📂 Project Structure
+
+```text
+Day1/
+│── ReverseNumber.java
+│── README.md
+```
+
+---
+
+## 💻 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd 100-days-of-coding-Java/Day1
+```
+
+### 3. Compile the Java file
+
+```bash
+javac ReverseNumber.java
+```
+
+### 4. Run the program
+
+```bash
+java ReverseNumber
+```
+
+---
+
+## 📝 Code Explanation
+
+The program repeatedly extracts the last digit of the number using the modulo operator (`%`) and builds the reversed number.
+
+```java
+public static void reverseNumber(int n) {
+    int rev = 0;
+
+    while (n != 0) {
+        rev = rev * 10 + n % 10;
+        n /= 10;
+    }
+
+    System.out.println("The reverse number is " + rev);
+}
+```
+
+### Algorithm
+
+1. Read an integer from the user.
+2. Initialize `rev` to `0`.
+3. Extract the last digit using `n % 10`.
+4. Append the digit to `rev`.
+5. Remove the last digit using `n /= 10`.
+6. Repeat until the number becomes `0`.
+7. Print the reversed number.
+
+---
+
+## 📋 Example Output
+
+| Input | Output |
+|:-----:|:------:|
+| 12345 | The reverse number is 54321 |
+| 9876 | The reverse number is 6789 |
+| 1000 | The reverse number is 1 |
+| 505 | The reverse number is 505 |
+
+---
+
+## 📚 Concepts Used
+
+- Java Basics
+- Variables
+- User Input (`Scanner`)
+- Methods
+- `while` Loop
+- Arithmetic Operators (`%`, `/`)
+- Number Manipulation
+
+---
+
+## 🎯 Learning Outcome
+
+By completing this project, I learned:
+
+- How to reverse a number using arithmetic operations.
+- How to use the modulo (`%`) operator to extract digits.
+- How integer division (`/`) removes the last digit.
+- How to organize code using methods.
+- How loops can solve digit-based problems efficiently.
+
+---
+
+## ⚠️ Note
+
+- This program reverses the digits using arithmetic operations instead of converting the number into a string.
+- If the input number ends with one or more zeros (e.g., `1200`), the reversed output will not contain leading zeros (`21`), since integers do not store leading zeros.
+
+---
+
 ## 📌 Author
 
 **Pratyush Kumar Mishra**

@@ -54,6 +54,7 @@ More topics will be added as the challenge progresses.
 | 2 | Check Prime Number | ✅ |
 | 3 | Factorial of a Number | ✅ |
 | 4 | Fibonacci Series | ✅ |
+| 4 | Reverse Number | ✅ |
 | ... | More Coming Soon | 🚀 |
 
 ---
