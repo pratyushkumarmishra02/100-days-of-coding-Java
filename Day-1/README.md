@@ -1,70 +1,61 @@
-# 🔢 Check Even or Odd (Java)
+# 📚 Day 1 - Java Fundamentals
 
-A simple Java program that takes an integer input from the user and determines whether the number is **Even** or **Odd** using the modulo operator (`%`).
-
-This project is part of my **#100DaysOfCode** journey, focusing on foundational programming concepts and basic Java syntax.
+Welcome to **Day 1** of my #100DaysOfCode Java journey! This day covers fundamental Java programming concepts including conditional logic, loops, recursion, and basic algorithms.
 
 ---
 
-## 🚀 Features
+## 📑 Table of Contents
+
+1. [Check Even or Odd](#-check-even-or-odd-java)
+2. [Check Prime Number](#-check-prime-number-java)
+3. [Factorial of a Number](#-factorial-of-a-number-java)
+4. [Fibonacci Series](#-fibonacci-series-java)
+5. [Reverse Number](#-reverse-number-java)
+
+---
+
+## 🔢 Check Even or Odd (Java)
+
+A simple Java program that takes an integer input from the user and determines whether the number is **Even** or **Odd** using the modulo operator (`%`).
+
+### 🚀 Features
 
 - **User Interactive:** Uses the `Scanner` class to accept real-time user input from the console.
 - **Simple Logic:** Uses the modulo operator (`%`) to determine whether a number is even or odd.
 - **Beginner Friendly:** Great for learning Java basics and conditional statements.
 
----
-
-## 🛠️ Prerequisites
-
-Before running this program, make sure you have:
+### 🛠️ Prerequisites
 
 - **Java Development Kit (JDK)** 8 or higher
 - Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
 
----
-
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```text
-Day1/
-│── CheckEvenOdd.java
-│── README.md
+Day-1/
+├── CheckEvenOdd.java
+└── README.md
 ```
 
----
-
-## 💻 How to Run
-
-### 1. Clone the repository
+### 💻 How to Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
-```
+# Clone the repository
+git clone https://github.com/pratyushkumarmishra02/100-days-of-coding-Java.git
 
-### 2. Navigate to the project folder
+# Navigate to the project folder
+cd 100-days-of-coding-Java/Day-1
 
-```bash
-cd 100-days-of-coding-Java/Day1
-```
-
-### 3. Compile the Java file
-
-```bash
+# Compile the Java file
 javac CheckEvenOdd.java
-```
 
-### 4. Run the program
-
-```bash
+# Run the program
 java CheckEvenOdd
 ```
 
----
+### 📝 Code Explanation
 
-## 📝 Code Explanation
-
-The program checks whether a number is divisible by **2**.
-
+The program checks whether a number is divisible by **2**:
 - If the remainder is **0**, the number is **Even**.
 - Otherwise, the number is **Odd**.
 
@@ -76,9 +67,7 @@ if (n % 2 == 0) {
 }
 ```
 
----
-
-## 📋 Example Output
+### 📋 Example Output
 
 | Input | Output |
 |:-----:|:------:|
@@ -87,9 +76,7 @@ if (n % 2 == 0) {
 | 0 | Even |
 | 15 | Odd |
 
----
-
-## 📚 Concepts Used
+### 📚 Concepts Used
 
 - Java Basics
 - Variables
@@ -99,85 +86,48 @@ if (n % 2 == 0) {
 
 ---
 
-## 🎯 Learning Outcome
-
-By completing this project, I learned:
-
-- How to take user input using the `Scanner` class.
-- How to use the modulo operator to check number parity.
-- How to implement conditional logic using `if-else` statements.
-- Basic Java program structure.
-
----
-
-````md
-# 🔢 Check Prime Number (Java)
+## 🔢 Check Prime Number (Java)
 
 A simple Java program that takes an integer input from the user and determines whether the number is **Prime** or **Not Prime** using a loop and conditional statements.
 
-This project is part of my **#100DaysOfCode** journey, focusing on core Java programming concepts, loops, and conditional logic.
-
----
-
-## 🚀 Features
+### 🚀 Features
 
 - **User Interactive:** Accepts user input using the `Scanner` class.
 - **Prime Number Check:** Determines whether a number is prime by checking its factors.
 - **Beginner Friendly:** Helps understand loops, conditions, and basic number theory.
 
----
-
-## 🛠️ Prerequisites
-
-Before running this program, make sure you have:
+### 🛠️ Prerequisites
 
 - **Java Development Kit (JDK)** 8 or higher
 - Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
 
----
-
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```text
-Day1/
-│── CheckPrime.java
-│── README.md
+Day-1/
+├── CheckPrime.java
+└── README.md
 ```
 
----
-
-## 💻 How to Run
-
-### 1. Clone the repository
+### 💻 How to Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
-```
+# Clone the repository
+git clone https://github.com/pratyushkumarmishra02/100-days-of-coding-Java.git
 
-### 2. Navigate to the project folder
+# Navigate to the project folder
+cd 100-days-of-coding-Java/Day-1
 
-```bash
-cd 100-days-of-coding-Java/Day1
-```
-
-### 3. Compile the Java file
-
-```bash
+# Compile the Java file
 javac CheckPrime.java
-```
 
-### 4. Run the program
-
-```bash
+# Run the program
 java CheckPrime
 ```
 
----
+### 📝 Code Explanation
 
-## 📝 Code Explanation
-
-The program counts how many numbers divide the given number exactly.
-
+The program counts how many numbers divide the given number exactly:
 - A **Prime Number** has exactly **two factors**: **1** and itself.
 - If the total factor count is **2**, the number is **Prime**.
 - Otherwise, it is **Not Prime**.
@@ -200,9 +150,7 @@ if (count == 2) {
 }
 ```
 
----
-
-## 📋 Example Output
+### 📋 Example Output
 
 | Input | Output |
 |:-----:|:------:|
@@ -211,9 +159,7 @@ if (count == 2) {
 | 10 | 10 is not a prime. |
 | 15 | 15 is not a prime. |
 
----
-
-## 📚 Concepts Used
+### 📚 Concepts Used
 
 - Java Basics
 - Variables
@@ -223,94 +169,55 @@ if (count == 2) {
 - Modulo Operator (`%`)
 - Prime Number Logic
 
----
-
-## 🎯 Learning Outcome
-
-By completing this project, I learned:
-
-- How to accept user input using the `Scanner` class.
-- How to use loops to solve mathematical problems.
-- How to determine the factors of a number.
-- How to implement conditional logic in Java.
-- Basic algorithm design for checking prime numbers.
-
----
-
-## ⚠️ Note
+### ⚠️ Note
 
 This program uses a simple factor-counting approach, making it ideal for beginners. For larger numbers, a more optimised solution checks divisibility only up to the square root of the number.
 
 ---
 
-# 🔢 Factorial of a Number (Java)
+## 🔢 Factorial of a Number (Java)
 
 A simple Java program that calculates the **factorial of a number** using **Recursion**. The program accepts an integer from the user and recursively computes its factorial.
 
-This project is part of my **#100DaysOfCode** journey, helping me understand recursion, functions, loops, and basic Java programming concepts.
-
----
-
-## 🚀 Features
+### 🚀 Features
 
 - **User Interactive:** Accepts user input using the `Scanner` class.
 - **Recursive Solution:** Calculates the factorial using recursion.
 - **Easy to Understand:** Demonstrates the concept of recursive function calls.
 - **Beginner Friendly:** Ideal for learning Java methods and recursion.
 
----
-
-## 🛠️ Prerequisites
-
-Before running this program, make sure you have:
+### 🛠️ Prerequisites
 
 - **Java Development Kit (JDK)** 8 or higher
 - Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
 
----
-
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```text
-Day1/
-│── FactorialOfNumber.java
-│── README.md
+Day-1/
+├── FactorialOfNumber.java
+└── README.md
 ```
 
----
-
-## 💻 How to Run
-
-### 1. Clone the repository
+### 💻 How to Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
-```
+# Clone the repository
+git clone https://github.com/pratyushkumarmishra02/100-days-of-coding-Java.git
 
-### 2. Navigate to the project folder
+# Navigate to the project folder
+cd 100-days-of-coding-Java/Day-1
 
-```bash
-cd 100-days-of-coding-Java/Day1
-```
-
-### 3. Compile the Java file
-
-```bash
+# Compile the Java file
 javac FactorialOfNumber.java
-```
 
-### 4. Run the program
-
-```bash
+# Run the program
 java FactorialOfNumber
 ```
 
----
+### 📝 Code Explanation
 
-## 📝 Code Explanation
-
-The program uses **recursion** to calculate the factorial.
-
+The program uses **recursion** to calculate the factorial:
 - If `n` is less than `1`, the function returns `1` (Base Case).
 - Otherwise, it multiplies `n` by the factorial of `n - 1`.
 
@@ -324,9 +231,7 @@ public static int factorial(int n) {
 }
 ```
 
----
-
-## 📋 Example Output
+### 📋 Example Output
 
 | Input | Output |
 |:-----:|:------:|
@@ -335,9 +240,7 @@ public static int factorial(int n) {
 | 0 | Factorial of 0 is 1 |
 | 1 | Factorial of 1 is 1 |
 
----
-
-## 📚 Concepts Used
+### 📚 Concepts Used
 
 - Java Basics
 - Variables
@@ -347,105 +250,62 @@ public static int factorial(int n) {
 - Conditional Statements (`if-else`)
 - Mathematical Computation
 
----
+### 🔄 Other Approaches
 
-## 🎯 Learning Outcome
-
-By completing this project, I learned:
-
-- How recursion works in Java.
-- The importance of the base case in recursive functions.
-- How to define and call methods.
-- How recursive function calls solve mathematical problems.
-- Basic problem-solving using recursion.
-
----
-
-## 🔄 Other Approaches
-
-This project also includes two additional implementations for calculating factorial:
+This project also includes additional implementations for calculating factorial:
 
 - ✅ Using a `while` loop (Iterative approach)
 - ✅ Using a separate method (Function-based approach)
 - ✅ Using **Recursion** (Current implementation)
 
-These approaches help compare different ways of solving the same problem in Java.
-
----
-
-## ⚠️ Note
+### ⚠️ Note
 
 - Factorials grow very quickly.
 - Since this program uses the `int` data type, it works correctly only for relatively small numbers (up to **12!**). For larger values, consider using `long` or `BigInteger`.
 
 ---
 
-````md id="fibonacci-readme"
-# 🔢 Fibonacci Series (Java)
+## 🔢 Fibonacci Series (Java)
 
 A simple Java program that generates the **Fibonacci Series** up to a specified number of terms entered by the user. The program uses a **method** and a **for loop** to print the Fibonacci sequence.
 
-This project is part of my **#100DaysOfCode** journey, helping me strengthen my understanding of loops, methods, variables, and basic Java programming concepts.
-
----
-
-## 🚀 Features
+### 🚀 Features
 
 - **User Interactive:** Accepts the number of terms using the `Scanner` class.
 - **Efficient Logic:** Generates the Fibonacci sequence using a `for` loop.
 - **Method-Based Implementation:** Uses a separate method for better code organization.
 - **Beginner Friendly:** Great for learning loops and sequence generation in Java.
 
----
-
-## 🛠️ Prerequisites
-
-Before running this program, make sure you have:
+### 🛠️ Prerequisites
 
 - **Java Development Kit (JDK)** 8 or higher
 - Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
 
----
-
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```text
-Day1/
-│── FibonacciSeries.java
-│── README.md
+Day-1/
+├── FibonacciSeries.java
+└── README.md
 ```
 
----
-
-## 💻 How to Run
-
-### 1. Clone the repository
+### 💻 How to Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
-```
+# Clone the repository
+git clone https://github.com/pratyushkumarmishra02/100-days-of-coding-Java.git
 
-### 2. Navigate to the project folder
+# Navigate to the project folder
+cd 100-days-of-coding-Java/Day-1
 
-```bash
-cd 100-days-of-coding-Java/Day1
-```
-
-### 3. Compile the Java file
-
-```bash
+# Compile the Java file
 javac FibonacciSeries.java
-```
 
-### 4. Run the program
-
-```bash
+# Run the program
 java FibonacciSeries
 ```
 
----
-
-## 📝 Code Explanation
+### 📝 Code Explanation
 
 The program initializes the first two Fibonacci numbers (`0` and `1`) and calculates each subsequent number by adding the previous two numbers.
 
@@ -465,9 +325,7 @@ public static void fibonacci(int n) {
 }
 ```
 
----
-
-## 📋 Example Output
+### 📋 Example Output
 
 | Input | Output |
 |:-----:|:------:|
@@ -475,9 +333,7 @@ public static void fibonacci(int n) {
 | 8 | 0, 1, 1, 2, 3, 5, 8, 13 |
 | 10 | 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 |
 
----
-
-## 📚 Concepts Used
+### 📚 Concepts Used
 
 - Java Basics
 - Variables
@@ -487,93 +343,54 @@ public static void fibonacci(int n) {
 - Sequence Generation
 - Mathematical Logic
 
----
-
-## 🎯 Learning Outcome
-
-By completing this project, I learned:
-
-- How to generate the Fibonacci sequence.
-- How to use loops for repetitive calculations.
-- How to organize code using methods.
-- How variables are updated during each iteration.
-- Basic algorithm design in Java.
-
----
-
-## ⚠️ Note
+### ⚠️ Note
 
 - This program prints the Fibonacci sequence based on the **number of terms** entered by the user.
 - The Fibonacci series starts with **0** and **1**, and every subsequent number is the sum of the previous two numbers.
 
 ---
 
-````md id="reverse-number-readme"
-# 🔢 Reverse Number (Java)
+## 🔢 Reverse Number (Java)
 
 A simple Java program that takes an integer input from the user and reverses its digits using a **while loop** and arithmetic operations.
 
-This project is part of my **#100DaysOfCode** journey, helping me strengthen my understanding of loops, methods, and number manipulation in Java.
-
----
-
-## 🚀 Features
+### 🚀 Features
 
 - **User Interactive:** Accepts user input using the `Scanner` class.
 - **Efficient Logic:** Reverses a number using arithmetic operators without converting it to a string.
 - **Method-Based Implementation:** Uses a separate method to improve code organization.
 - **Beginner Friendly:** Demonstrates number manipulation using loops.
 
----
-
-## 🛠️ Prerequisites
-
-Before running this program, make sure you have:
+### 🛠️ Prerequisites
 
 - **Java Development Kit (JDK)** 8 or higher
 - Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
 
----
-
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```text
-Day1/
-│── ReverseNumber.java
-│── README.md
+Day-1/
+├── ReverseNumber.java
+└── README.md
 ```
 
----
-
-## 💻 How to Run
-
-### 1. Clone the repository
+### 💻 How to Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
-```
+# Clone the repository
+git clone https://github.com/pratyushkumarmishra02/100-days-of-coding-Java.git
 
-### 2. Navigate to the project folder
+# Navigate to the project folder
+cd 100-days-of-coding-Java/Day-1
 
-```bash
-cd 100-days-of-coding-Java/Day1
-```
-
-### 3. Compile the Java file
-
-```bash
+# Compile the Java file
 javac ReverseNumber.java
-```
 
-### 4. Run the program
-
-```bash
+# Run the program
 java ReverseNumber
 ```
 
----
-
-## 📝 Code Explanation
+### 📝 Code Explanation
 
 The program repeatedly extracts the last digit of the number using the modulo operator (`%`) and builds the reversed number.
 
@@ -600,9 +417,7 @@ public static void reverseNumber(int n) {
 6. Repeat until the number becomes `0`.
 7. Print the reversed number.
 
----
-
-## 📋 Example Output
+### 📋 Example Output
 
 | Input | Output |
 |:-----:|:------:|
@@ -611,9 +426,7 @@ public static void reverseNumber(int n) {
 | 1000 | The reverse number is 1 |
 | 505 | The reverse number is 505 |
 
----
-
-## 📚 Concepts Used
+### 📚 Concepts Used
 
 - Java Basics
 - Variables
@@ -623,21 +436,7 @@ public static void reverseNumber(int n) {
 - Arithmetic Operators (`%`, `/`)
 - Number Manipulation
 
----
-
-## 🎯 Learning Outcome
-
-By completing this project, I learned:
-
-- How to reverse a number using arithmetic operations.
-- How to use the modulo (`%`) operator to extract digits.
-- How integer division (`/`) removes the last digit.
-- How to organize code using methods.
-- How loops can solve digit-based problems efficiently.
-
----
-
-## ⚠️ Note
+### ⚠️ Note
 
 - This program reverses the digits using arithmetic operations instead of converting the number into a string.
 - If the input number ends with one or more zeros (e.g., `1200`), the reversed output will not contain leading zeros (`21`), since integers do not store leading zeros.
@@ -653,4 +452,3 @@ Part of my **#100DaysOfCode** Java journey 🚀
 ---
 
 ⭐ If you found this project helpful, consider giving the repository a star!
-````
