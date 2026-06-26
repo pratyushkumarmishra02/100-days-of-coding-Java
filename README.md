@@ -1,4 +1,3 @@
-````md
 # ☕ 100 Days of Coding – Java
 
 Welcome to my **#100DaysOfCode** challenge! 🚀
@@ -151,4 +150,3 @@ Your support motivates me to keep learning and sharing my progress!
 
 ### 🚀 Happy Coding!
 *"Consistency beats perfection. One day, one commit, one step closer to mastery."*
-````
