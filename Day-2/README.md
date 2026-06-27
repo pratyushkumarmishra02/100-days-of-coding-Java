@@ -145,10 +145,6 @@ By completing this project, I learned:
 
 
 
-\---
-
-
-
 # 🔢 Day 2 - Armstrong Number (Java)
 
 A simple Java program that checks whether a given integer is an **Armstrong Number** or **Not an Armstrong Number** by calculating the sum of the cubes of its digits and comparing it with the original number.
