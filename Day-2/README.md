@@ -1,4 +1,4 @@
-\# 🔢 Day 2 - Check Palindrome Number (Java)
+\## 🔢 Day 2 - Check Palindrome Number (Java)
 
 
 
