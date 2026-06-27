@@ -1,4 +1,3 @@
-````md id="day2-palindrome-readme"
 # 🔢 Day 2 - Check Palindrome Number (Java)
 
 A simple Java program that checks whether a given integer is a **Palindrome** or **Not a Palindrome** by reversing the number and comparing it with the original value.
@@ -143,4 +142,3 @@ Part of my **#100DaysOfCode** Java journey 🚀
 ---
 
 ⭐ If you found this project helpful, consider giving the repository a star!
-````
