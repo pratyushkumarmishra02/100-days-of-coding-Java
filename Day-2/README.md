@@ -133,22 +133,6 @@ By completing this project, I learned:
 
 ---
 
-## 📌 Author
-
-**Pratyush Kumar Mishra**
-
-Part of my **#100DaysOfCode** Java journey 🚀
-
----
-
-⭐ If you found this project helpful, consider giving the repository a star!
-=======
-\- How loops can solve digit-based problems efficiently.
-
-
-
-\---
-
 
 
 \## ⚠️ Note
