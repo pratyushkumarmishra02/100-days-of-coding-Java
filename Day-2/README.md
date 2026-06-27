@@ -1,292 +1,146 @@
-\## 🔢 Day 2 - Check Palindrome Number (Java)
+````md id="day2-palindrome-readme"
+# 🔢 Day 2 - Check Palindrome Number (Java)
 
+A simple Java program that checks whether a given integer is a **Palindrome** or **Not a Palindrome** by reversing the number and comparing it with the original value.
 
+This project is part of my **#100DaysOfCode** journey, helping me strengthen my understanding of loops, methods, conditional statements, and number manipulation in Java.
 
-A simple Java program that checks whether a given integer is a \*\*Palindrome\*\* or \*\*Not a Palindrome\*\* by reversing the number and comparing it with the original value.
+---
 
+## 🚀 Features
 
+- **User Interactive:** Accepts user input using the `Scanner` class.
+- **Palindrome Check:** Reverses the number and compares it with the original.
+- **Method-Based Implementation:** Uses a separate method for better code organization.
+- **Beginner Friendly:** Demonstrates the use of loops and arithmetic operations.
 
-This project is part of my \*\*#100DaysOfCode\*\* journey, helping me strengthen my understanding of loops, methods, conditional statements, and number manipulation in Java.
+---
 
-
-
-\---
-
-
-
-\## 🚀 Features
-
-
-
-\- \*\*User Interactive:\*\* Accepts user input using the `Scanner` class.
-
-\- \*\*Palindrome Check:\*\* Reverses the number and compares it with the original.
-
-\- \*\*Method-Based Implementation:\*\* Uses a separate method for better code organization.
-
-\- \*\*Beginner Friendly:\*\* Demonstrates the use of loops and arithmetic operations.
-
-
-
-\---
-
-
-
-\## 🛠️ Prerequisites
-
-
+## 🛠️ Prerequisites
 
 Before running this program, make sure you have:
 
+- **Java Development Kit (JDK)** 8 or higher
+- Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
 
+---
 
-\- \*\*Java Development Kit (JDK)\*\* 8 or higher
-
-\- Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
-
-
-
-\---
-
-
-
-\## 📂 Project Structure
-
-
+## 📂 Project Structure
 
 ```text
-
 Day2/
-
 │── CheckPalindrome.java
-
 │── README.md
-
 ```
 
+---
 
+## 💻 How to Run
 
-\---
-
-
-
-\## 💻 How to Run
-
-
-
-\### 1. Clone the repository
-
-
+### 1. Clone the repository
 
 ```bash
-
-git clone https://github.com/YOUR\_USERNAME/100-days-of-coding-Java.git
-
+git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
 ```
 
-
-
-\### 2. Navigate to the project folder
-
-
+### 2. Navigate to the project folder
 
 ```bash
-
 cd 100-days-of-coding-Java/Day2
-
 ```
 
-
-
-\### 3. Compile the Java file
-
-
+### 3. Compile the Java file
 
 ```bash
-
 javac CheckPalindrome.java
-
 ```
 
-
-
-\### 4. Run the program
-
-
+### 4. Run the program
 
 ```bash
-
 java CheckPalindrome
-
 ```
 
+---
 
-
-\---
-
-
-
-\## 📝 Code Explanation
-
-
+## 📝 Code Explanation
 
 The program stores the original number, reverses its digits using a `while` loop, and compares the reversed number with the original number.
 
-
-
 ```java
-
 public static void checkPalindrome(int n) {
+    int rev = 0;
+    int temp = n;
 
-&#x20;   int rev = 0;
+    while (temp != 0) {
+        rev = rev * 10 + temp % 10;
+        temp /= 10;
+    }
 
-&#x20;   int temp = n;
-
-
-
-&#x20;   while (temp != 0) {
-
-&#x20;       rev = rev \* 10 + temp % 10;
-
-&#x20;       temp /= 10;
-
-&#x20;   }
-
-
-
-&#x20;   System.out.println(n == rev ? "Palindrome" : "Not a Palindrome");
-
+    System.out.println(n == rev ? "Palindrome" : "Not a Palindrome");
 }
-
 ```
 
+### Algorithm
 
+1. Read an integer from the user.
+2. Store the original number in a temporary variable.
+3. Reverse the number digit by digit.
+4. Compare the reversed number with the original number.
+5. Print **"Palindrome"** if both are equal; otherwise print **"Not a Palindrome"**.
 
-\### Algorithm
+---
 
-
-
-1\. Read an integer from the user.
-
-2\. Store the original number in a temporary variable.
-
-3\. Reverse the number digit by digit.
-
-4\. Compare the reversed number with the original number.
-
-5\. Print \*\*"Palindrome"\*\* if both are equal; otherwise print \*\*"Not a Palindrome"\*\*.
-
-
-
-\---
-
-
-
-\## 📋 Example Output
-
-
+## 📋 Example Output
 
 | Input | Output |
-
 |:-----:|:------:|
-
 | 121 | Palindrome |
-
 | 1221 | Palindrome |
-
 | 123 | Not a Palindrome |
-
 | 1001 | Palindrome |
 
+---
 
+## 📚 Concepts Used
 
-\---
+- Java Basics
+- Variables
+- User Input (`Scanner`)
+- Methods
+- `while` Loop
+- Conditional (Ternary) Operator (`?:`)
+- Arithmetic Operators (`%`, `/`)
+- Number Manipulation
 
+---
 
-
-\## 📚 Concepts Used
-
-
-
-\- Java Basics
-
-\- Variables
-
-\- User Input (`Scanner`)
-
-\- Methods
-
-\- `while` Loop
-
-\- Conditional (Ternary) Operator (`?:`)
-
-\- Arithmetic Operators (`%`, `/`)
-
-\- Number Manipulation
-
-
-
-\---
-
-
-
-\## 🎯 Learning Outcome
-
-
+## 🎯 Learning Outcome
 
 By completing this project, I learned:
 
+- How to reverse a number using arithmetic operations.
+- How to compare values to determine if a number is a palindrome.
+- How to use the modulo (`%`) and division (`/`) operators.
+- How to organize code using methods.
+- How loops can solve digit-based problems efficiently.
 
+---
 
-\- How to reverse a number using arithmetic operations.
+## ⚠️ Note
 
-\- How to compare values to determine if a number is a palindrome.
+- This program works with **integer values** only.
+- A palindrome number reads the same forwards and backwards (e.g., `121`, `1331`, `1001`).
 
-\- How to use the modulo (`%`) and division (`/`) operators.
+---
 
-\- How to organize code using methods.
+## 📌 Author
 
-\- How loops can solve digit-based problems efficiently.
+**Pratyush Kumar Mishra**
 
+Part of my **#100DaysOfCode** Java journey 🚀
 
-
-\---
-
-
-
-\## ⚠️ Note
-
-
-
-\- This program works with \*\*integer values\*\* only.
-
-\- A palindrome number reads the same forwards and backwards (e.g., `121`, `1331`, `1001`).
-
-
-
-\---
-
-
-
-\## 📌 Author
-
-
-
-\*\*Pratyush Kumar Mishra\*\*
-
-
-
-Part of my \*\*#100DaysOfCode\*\* Java journey 🚀
-
-
-
-\---
-
-
+---
 
 ⭐ If you found this project helpful, consider giving the repository a star!
-
 ````
-
-
-
