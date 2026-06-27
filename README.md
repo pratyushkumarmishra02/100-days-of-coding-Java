@@ -48,17 +48,21 @@ More topics will be added as the challenge progresses.
 
 ## 📅 Challenge Progress
 
-| Day-1 | Project | Status |
-|:---:|---------|:------:|
-| 1 | Check Even or Odd | ✅ |
-| 2 | Check Prime Number | ✅ |
-| 3 | Factorial of a Number | ✅ |
-| 4 | Fibonacci Series | ✅ |
-| 5 | Reverse Number | ✅ |
-| Day-2 | Project | Status |
-|:---:|---------|:------:|
-| 1 | Check Palindrome Number | ✅ |
-| ... | More Coming Soon | 🚀 |
+## 📅 Day 1
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Check Even or Odd | [📂](./Day-1/ChekEvenOdd.java) | ✅ |
+| 2 | Check Prime Number | [📂](./Day-1/CheckPrime.java) | ✅ |
+| 3 | Factorial of a Number | [📂](./Day-1/FactorialOfNumber.java) | ✅ |
+| 4 | Fibonacci Series | [📂](./Day-1/FibonacciSeries.java) | ✅ |
+| 5 | Reverse Number | [📂](./Day-1/ReverseNumber.java) | ✅ |
+
+## 📅 Day 2
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Check Palindrome Number | [📂](./Day-2/CheckPalindrome.java) | ✅ |
 
 ---
 
