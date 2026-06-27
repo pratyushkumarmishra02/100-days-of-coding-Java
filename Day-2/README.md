@@ -142,7 +142,7 @@ By completing this project, I learned:
 \- This program works with \*\*integer values\*\* only.
 
 \- A palindrome number reads the same forwards and backwards (e.g., `121`, `1331`, `1001`).
-
+---
 
 
 # 🔢 Day 2 - Armstrong Number (Java)
