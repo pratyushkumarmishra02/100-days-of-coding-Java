@@ -64,6 +64,7 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Check Palindrome Number | [📂](./Day-2/CheckPalindrome.java) | ✅ |
 | 2 | Check Amstrong Number | [📂](./Day-2/ArmstrongNumber.java) | ✅ |
+| 2 | Check Amstrong Number | [📂](./Day-2/SumOfDigits.java) | ✅ |
 
 ---
 

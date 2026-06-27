@@ -289,6 +289,143 @@ Example:
 
 ---
 
+# 🔢 Day 2 - Sum of Digits (Java)
+
+A simple Java program that calculates the **sum of all digits** in a given integer. The program extracts each digit using arithmetic operations, adds them together, and displays the final sum.
+
+This project is part of my **#100DaysOfCode** journey, helping me strengthen my understanding of loops, methods, arithmetic operations, and number manipulation in Java.
+
+---
+
+## 🚀 Features
+
+- **User Interactive:** Accepts user input using the `Scanner` class.
+- **Digit Extraction:** Uses the modulo (`%`) operator to extract individual digits.
+- **Method-Based Implementation:** Uses a separate method for better code organization.
+- **Beginner Friendly:** Demonstrates arithmetic operations and loops in Java.
+
+---
+
+## 🛠️ Prerequisites
+
+Before running this program, make sure you have:
+
+- **Java Development Kit (JDK)** 8 or higher
+- Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or a terminal with Java installed
+
+---
+
+## 📂 Project Structure
+
+```text
+Day-2/
+│── SumOfDigits.java
+│── README.md
+```
+
+---
+
+## 💻 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd 100-days-of-coding-Java/Day-2
+```
+
+### 3. Compile the Java file
+
+```bash
+javac SumOfDigits.java
+```
+
+### 4. Run the program
+
+```bash
+java SumOfDigits
+```
+
+---
+
+## 📝 Code Explanation
+
+The program repeatedly extracts the last digit of the number using the modulo operator (`%`), adds it to a running sum, and removes the last digit using integer division (`/`).
+
+```java
+public static void sumOfDigits(int n) {
+    int sum = 0;
+    int temp = n;
+
+    while (temp != 0) {
+        int num = temp % 10;
+        sum += num;
+        temp /= 10;
+    }
+
+    System.out.println("Sum of digits of " + n + " is " + sum);
+}
+```
+
+### Algorithm
+
+1. Read an integer from the user.
+2. Store the number in a temporary variable.
+3. Extract the last digit using `temp % 10`.
+4. Add the digit to `sum`.
+5. Remove the last digit using `temp /= 10`.
+6. Repeat until the number becomes `0`.
+7. Display the sum of all digits.
+
+---
+
+## 📋 Example Output
+
+| Input | Output |
+|:-----:|:------:|
+| 1234 | Sum of digits of 1234 is 10 |
+| 56789 | Sum of digits of 56789 is 35 |
+| 1001 | Sum of digits of 1001 is 2 |
+| 999 | Sum of digits of 999 is 27 |
+
+---
+
+## 📚 Concepts Used
+
+- Java Basics
+- Variables
+- User Input (`Scanner`)
+- Methods
+- `while` Loop
+- Arithmetic Operators (`%`, `/`)
+- Number Manipulation
+
+---
+
+## 🎯 Learning Outcome
+
+By completing this project, I learned:
+
+- How to extract digits from an integer.
+- How to calculate the sum of digits using loops.
+- How modulo (`%`) and division (`/`) operators work together.
+- How to organize code using methods.
+- How arithmetic operations simplify digit-based problems.
+
+---
+
+## ⚠️ Note
+
+- This program works with positive integers.
+- For negative numbers, the logic can be extended using `Math.abs()` to calculate the sum of digits correctly.
+
+---
+
 ## 📌 Author
 
 **Pratyush Kumar Mishra**
@@ -298,3 +435,5 @@ Part of my **#100DaysOfCode** Java journey 🚀
 ---
 
 ⭐ If you found this project helpful, consider giving the repository a star!
+
+---
