@@ -55,6 +55,9 @@ More topics will be added as the challenge progresses.
 | 3 | Factorial of a Number | ✅ |
 | 4 | Fibonacci Series | ✅ |
 | 5 | Reverse Number | ✅ |
+| Day-2 | Project | Status |
+|:---:|---------|:------:|
+| 1 | Check Palindrome Number | ✅ |
 | ... | More Coming Soon | 🚀 |
 
 ---
