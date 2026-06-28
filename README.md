@@ -64,7 +64,16 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Check Palindrome Number | [📂](./Day-2/CheckPalindrome.java) | ✅ |
 | 2 | Check Amstrong Number | [📂](./Day-2/ArmstrongNumber.java) | ✅ |
-| 2 | SumOfDigits of a Number | [📂](./Day-2/SumOfDigits.java) | ✅ |
+| 3 | SumOfDigits of a Number | [📂](./Day-2/SumOfDigits.java) | ✅ |
+
+## 📅 Day 3
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Largest among 3 Numbers | [📂](./Day-3/LargestOf3Numbers.java) | ✅ |
+| 2 | Count Vowels and Consonants in a sentence | [📂](./Day-3/CountVowelsConsonent.java) | ✅ |
+| 3 | Reverse a String | [📂](./Day-3/ReverseString.java) | ✅ |
+| 4 | Reverse a sentence | [📂](./Day-3/ReverseASentence.java) | ✅ |
 
 ---
 
