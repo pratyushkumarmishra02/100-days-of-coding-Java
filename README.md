@@ -75,6 +75,13 @@ More topics will be added as the challenge progresses.
 | 3 | Reverse a String | [📂](./Day-3/ReverseString.java) | ✅ |
 | 4 | Reverse a sentence | [📂](./Day-3/ReverseASentence.java) | ✅ |
 
+## 📅 Day 4
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | GCD of 2 Numbers | [📂](./Day-4/GCDOf2Numbers.java) | ✅ |
+| 2 | LCM of 2 Numbers | [📂](./Day-4/LCMOf2Numbers.java) | ✅ |
+
 ---
 
 Each day's folder contains:
