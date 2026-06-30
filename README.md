@@ -82,6 +82,14 @@ More topics will be added as the challenge progresses.
 | 1 | GCD of 2 Numbers | [📂](./Day-4/GCDOf2Numbers.java) | ✅ |
 | 2 | LCM of 2 Numbers | [📂](./Day-4/LCMOf2Numbers.java) | ✅ |
 
+## 📅 Day 5
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Check Anagram | [📂](./Day-5/CheckAnagram.java) | ✅ |
+| 2 | Remove Duplicate from String | [📂](./Day-5/RemoveDuplicateFromString.java) | ✅ |
+
+
 ---
 
 Each day's folder contains:
