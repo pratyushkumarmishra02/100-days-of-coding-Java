@@ -1,4 +1,4 @@
-# 🔢 Day 3 - GCD and LCM of Two Numbers (Java)
+# 🔢 Day 4 - GCD and LCM of Two Numbers (Java)
 
 This folder contains two Java programs that calculate the **Greatest Common Divisor (GCD)** and **Least Common Multiple (LCM)** of two integers using the **Euclidean Algorithm**.
 
@@ -37,7 +37,7 @@ Before running these programs, make sure you have:
 # 📂 Project Structure
 
 ```text
-Day-3/
+Day-4/
 │── GCDOf2Numbers.java
 │── LCMOf2Numbers.java
 │── README.md
@@ -56,7 +56,7 @@ git clone https://github.com/YOUR_USERNAME/100-days-of-coding-Java.git
 ### 2. Navigate to the folder
 
 ```bash
-cd 100-days-of-coding-Java/Day-3
+cd 100-days-of-coding-Java/Day-4
 ```
 
 ### 3. Compile the Java file
