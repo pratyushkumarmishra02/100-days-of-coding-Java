@@ -89,6 +89,12 @@ More topics will be added as the challenge progresses.
 | 1 | Check Anagram | [📂](./Day-5/CheckAnagram.java) | ✅ |
 | 2 | Remove Duplicate from String | [📂](./Day-5/RemoveDuplicateFromString.java) | ✅ |
 
+## 📅 Day 6
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Linear Search | [📂](./Day-6/LinearSearch.java) | ✅ |
+
 
 ---
 
