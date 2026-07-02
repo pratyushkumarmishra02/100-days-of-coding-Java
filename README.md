@@ -95,6 +95,12 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Linear Search | [📂](./Day-6/LinearSearch.java) | ✅ |
 
+## 📅 Day 7
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Second largest number in Array | [📂](./Day-7/Find2ndLargestInArray.java) | ✅ |
+
 
 ---
 
