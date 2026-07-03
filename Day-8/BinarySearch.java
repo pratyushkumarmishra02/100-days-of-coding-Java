@@ -17,7 +17,7 @@ public class BinarySearch {
 			if(key==arr[mid]) {
 				found=true;
 				break;
-			}else if(key>mid) {
+			}else if(key>arr[mid) {
 				lp=mid+1;
 			}else {
 				rp=mid-1;
