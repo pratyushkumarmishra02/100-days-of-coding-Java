@@ -101,6 +101,13 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Second largest number in Array | [📂](./Day-7/Find2ndLargestInArray.java) | ✅ |
 
+## 📅 Day 8
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Binary Search | [📂](./Day-8/BinarySearch.java) | ✅ |
+| 2 | Bubble Sort | [📂](./Day-8/BubbleSort.java) | ✅ |
+
 
 ---
 
