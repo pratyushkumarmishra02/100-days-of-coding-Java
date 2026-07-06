@@ -114,6 +114,13 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Container With Max Water | [📂](./Day-9/ContainerWithMaxWater.java) | ✅ |
 
+## 📅 Day 10
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Selection Sort | [📂](./Day-10/SelectionSort.java) | ✅ |
+
+
 
 ---
 
