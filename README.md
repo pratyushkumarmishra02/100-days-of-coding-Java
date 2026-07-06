@@ -120,6 +120,12 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Selection Sort | [📂](./Day-10/SelectionSort.java) | ✅ |
 
+## 📅 Day 11
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Insertion Sort | [📂](./Day-11/InsertionSort.java) | ✅ |
+
 
 
 ---
