@@ -108,6 +108,12 @@ More topics will be added as the challenge progresses.
 | 1 | Binary Search | [📂](./Day-8/BinarySearch.java) | ✅ |
 | 2 | Bubble Sort | [📂](./Day-8/BubbleSort.java) | ✅ |
 
+## 📅 Day 9
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Container With Max Water | [📂](./Day-9/ContainerWithMaxWater.java) | ✅ |
+
 
 ---
 
