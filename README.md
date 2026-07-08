@@ -132,6 +132,12 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Two Sum | [📂](./Day-12/TwoSum.java) | ✅ |
 
+## 📅 Day 13
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Reverse Character In String | [📂](./Day-13/ReverseCharacterInString.java) | ✅ |
+
 
 
 ---
