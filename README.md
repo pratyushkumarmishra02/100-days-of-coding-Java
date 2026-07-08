@@ -126,6 +126,12 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Insertion Sort | [📂](./Day-11/InsertionSort.java) | ✅ |
 
+## 📅 Day 12
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Two Sum | [📂](./Day-12/TwoSum.java) | ✅ |
+
 
 
 ---
