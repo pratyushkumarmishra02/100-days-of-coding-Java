@@ -1,7 +1,6 @@
 public class JumpGame {
 
     public static boolean canJump(int[] nums) {
-        // Keeps track of the furthest index we can currently reach
         int maxReach = 0;
 
         for (int i = 0; i < nums.length; i++) {
