@@ -138,6 +138,12 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Reverse Character In String | [📂](./Day-13/ReverseCharacterInString.java) | ✅ |
 
+## 📅 Day 14
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Jump Game | [📂](./Day-14/JumpGame.java) | ✅ |
+
 
 
 ---
