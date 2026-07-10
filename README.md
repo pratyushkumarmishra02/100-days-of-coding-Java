@@ -144,6 +144,12 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Jump Game | [📂](./Day-14/JumpGame.java) | ✅ |
 
+## 📅 Day 15
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Search Rotated Array | [📂](./Day-15/SearchRotatedArray.java) | ✅ |
+
 
 
 ---
