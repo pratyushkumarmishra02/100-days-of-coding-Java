@@ -150,6 +150,11 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Search Rotated Array | [📂](./Day-15/SearchRotatedArray.java) | ✅ |
 
+## 📅 Day 16
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Remove Duplicate From Sorted Array | [📂](./Day-16/RemoveDuplicates.java) | ✅ |
 
 
 ---
