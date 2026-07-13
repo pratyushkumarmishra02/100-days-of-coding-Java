@@ -156,6 +156,12 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Remove Duplicate From Sorted Array | [📂](./Day-16/RemoveDuplicates.java) | ✅ |
 
+## 📅 Day 17
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Max Consecutive Ones | [📂](./Day-17/MaxConsecutiveOnes.java) | ✅ |
+
 
 ---
 
