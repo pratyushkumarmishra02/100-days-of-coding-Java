@@ -162,6 +162,11 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Max Consecutive Ones | [📂](./Day-17/MaxConsecutiveOnes.java) | ✅ |
 
+## 📅 Day 18
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Longest Substring Without Repeating | [📂](./Day-18/LengthOfLongestSubstring.java) | ✅ |
 
 ---
 
