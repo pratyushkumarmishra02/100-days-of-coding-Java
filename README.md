@@ -168,6 +168,12 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Longest Substring Without Repeating | [📂](./Day-18/LengthOfLongestSubstring.java) | ✅ |
 
+## 📅 Day 19
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Gcd Of Odd and Even Sums | [📂](./Day-19/GcdOfOddEvenSums.java) | ✅ |
+
 ---
 
 Each day's folder contains:
