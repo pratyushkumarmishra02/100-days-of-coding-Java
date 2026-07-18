@@ -174,6 +174,12 @@ More topics will be added as the challenge progresses.
 |:---:|---------|:----:|:------:|
 | 1 | Gcd Of Odd and Even Sums | [📂](./Day-19/GcdOfOddEvenSums.java) | ✅ |
 
+## 📅 Day 20
+
+| No. | Project | Link | Status |
+|:---:|---------|:----:|:------:|
+| 1 | Find Gcd Of Array | [📂](./Day-20/FindGcdOfArray.java) | ✅ |
+
 ---
 
 Each day's folder contains:
