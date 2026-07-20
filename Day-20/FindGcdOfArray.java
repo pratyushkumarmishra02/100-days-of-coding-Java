@@ -26,7 +26,7 @@ public class FindGcdOfArray {
     public static void main(String[] args) {
         FindGcdOfArray solver = new FindGcdOfArray();
 
-        int[] nums1 = {2, 5, 6, 9, 10};
+        int[] nums1 = {2, 5, 6, 9, 11,10};
         System.out.println("Test Case 1 Output: " + solver.findGCD(nums1)); 
 
         int[] nums2 = {7, 5, 6, 8, 3};
